@@ -68,7 +68,7 @@ while race_active:
                 print(f"You win! The {winning_colour} turtle is the winner.")
             else:
                 # Notify the user if they did not guess the winning turtle's color correctly
-                print(f"You lose. The {winning_colour} turtle is the winner.")
+                print(f"You lose. The {winning_colour} turtle is the winner. Better luck next time")
 
         # Move each turtle randomly forward between 0 and 10 pixels
         rand_distance = random.randint(0, 10)
